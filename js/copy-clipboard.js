@@ -14,3 +14,7 @@ function sendEmail(){
     window.location = "mailto:"+text;
 }
 
+
+function openUrl(url) {
+    window.open(url, '_blank').focus();
+}
