@@ -115,6 +115,20 @@ max-width: 30%;
     height: auto;
 }
 
+.icon-mail{
+    fill: #ffffff;
+    width: 40px;
+    height: auto;
+    margin-left: 20px;
+}
+.icon-small{
+    fill: #ffffff;
+    width: auto;
+    height: 25px;
+    margin-left: 10px;
+    transform: translateY(17%);
+}
+
 section{
     margin-top: 5em;
     margin-bottom: 20em;
@@ -145,31 +159,19 @@ footer{
 position: relative;
 }
 
-[tooltip]::before {
-content: "";
-position: absolute;
-top: -6px;
-left: 50%;
-transform: translateX(-50%);
-border-width: 4px 6px 0 6px;
-border-style: solid;
-border-color: #fff transparent transparent transparent;
-z-index: 100;
-opacity: 0;
-transition: all 250ms ease;
-}
+
 
 [tooltip]::after {
 content: attr(tooltip);
 position: absolute;
-left: 50%;
-top: -6px;
+left: 100%;
+
 transform: translateX(-50%) translateY(-100%);
-background: #fff;
+background: #db504a;
 text-align: center;
-color: #9ed8db;
+color: #ffffff;
 padding: 4px 8px;
-font-size: 14px;
+font-size: 10px;
 min-width: 80px;
 border-radius: 4px;
 pointer-events: none;
@@ -185,7 +187,7 @@ transform: translateX(-50%) translatey(-100%) rotate(-180deg)
 
 [tooltip-position='bottom']::after {
 top: 100%;
-margin-top: 36px;
+margin-top: 6px;
 transform: translateX(-50%) translateY(0);
 }
 
