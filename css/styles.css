@@ -137,7 +137,6 @@ max-width: 30%;
     height: 25px;
     margin-left: 10px;
     transform: translateY(17%);
-    cursor: url(../img/cursor.png);
 }
 
 section{
@@ -165,12 +164,6 @@ footer{
 .mail-text {
     font-size: 20px;
 }
-
-.mail-text :hover{
-
-    cursor: url(../img/cursor.png);
-}
-
 
 [tooltip]{
 position: relative;
