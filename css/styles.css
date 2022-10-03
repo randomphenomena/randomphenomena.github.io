@@ -115,18 +115,29 @@ max-width: 30%;
     height: auto;
 }
 
+.icon:hover{
+    fill:#9ed8db ;
+}
+
 .icon-mail{
     fill: #ffffff;
     width: 40px;
     height: auto;
     margin-left: 20px;
 }
+
+.icon-mail:hover{
+    fill:#9ed8db ;
+}
+
+
 .icon-small{
     fill: #ffffff;
     width: auto;
     height: 25px;
     margin-left: 10px;
     transform: translateY(17%);
+    cursor: url(../img/cursor.png);
 }
 
 section{
@@ -154,6 +165,12 @@ footer{
 .mail-text {
     font-size: 20px;
 }
+
+.mail-text :hover{
+
+    cursor: url(../img/cursor.png);
+}
+
 
 [tooltip]{
 position: relative;
