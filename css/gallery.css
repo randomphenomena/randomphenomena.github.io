@@ -1,19 +1,40 @@
-.photo-grid {
-    display: grid;
-    gap: 1rem;
-  
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-auto-rows: 300px;
-  }
-  
-  /* Medium screens */
-  @media screen and (min-width: 600px) {
-    .card-tall {
-      grid-row: span 2 / auto;
-      grid-column: span 2 / auto;
-    }
-  
-    .card-wide {
-      grid-column: span 2 / auto;
-    }
-  }
+/* Colors:
+#231123 - Dark Purple - Background
+#42D9C8 - Powder Blue - reactions C
+#E85D75 - pink - reactions B
+#F9DB6D - yellow - reactions A
+#F5E2C8 -  texts
+
+
+font-family: 'Poppins', sans-serif;
+*/
+.gallery {
+  margin-top: 50px;
+}
+
+.gallery .col-sm-6 {
+  padding: 5px;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 100%; /* Create a square aspect ratio (change as needed) */
+  border-radius: 15px;
+}
+
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Medium screens */
+@media screen and (min-width: 600px) {
+
+}
+

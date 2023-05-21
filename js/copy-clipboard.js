@@ -1,20 +1,27 @@
-function copyText(){
 
-    var element = document.getElementById("mail-text") ;
-    var text = element.textContent;
-    navigator.clipboard.writeText(text);
-}
+    function copyText(element) {
+      var text = element.textContent || element.innerText;
+      navigator.clipboard.writeText(text).then(function() {
+        console.log('Text copied to clipboard');
+        showMessage(element, 'email copied!');
+        setTimeout(function() {
+          hideMessage();
+        }, 2000); // 2 seconds delay
+      }, function(err) {
+        console.error('Failed to copy text: ', err);
+      });
+    }
 
+    function showMessage(element, message) {
+      var messageElement = document.createElement('span');
+      messageElement.className = 'message';
+      messageElement.textContent = message;
+      element.parentNode.insertBefore(messageElement, element.nextSibling);
+    }
 
-function sendEmail(){
-
-    var textElement = document.getElementById("mail-text") ;
-    var text = textElement.textContent;
-    var element = document.getElementById("mail-icon") ;
-    window.location = "mailto:"+text;
-}
-
-
-function openUrl(url) {
-    window.open(url, '_blank').focus();
-}
+    function hideMessage() {
+      var messageElement = document.querySelector('.message');
+      if (messageElement) {
+        messageElement.parentNode.removeChild(messageElement);
+      }
+    }
