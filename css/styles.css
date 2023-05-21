@@ -51,7 +51,7 @@ nav {
 }
 
 .menu ul {
-  max-width: 1040px;
+  width: 1040px;
   padding-top: 10px;
   list-style: none;
   display: flex;
@@ -250,13 +250,13 @@ footer li a{
   }
 
   nav{
-    margin: 0;
-    text-align: center;
+    
+    margin: 0 auto;
   }
 
   nav ul{
     margin: 0;
-   width: 390px;
+    max-width: 300px;
   }
 
   nav li a{
@@ -266,10 +266,14 @@ footer li a{
   }
 
   img{
-    width: 250px;
+    width: 300px;
     height: auto;
   }
 
+  .img-work{
+    width: 250px;
+    height: auto;
+  }
   .logo img {
     width: 150px;
     height: auto;
@@ -282,6 +286,20 @@ footer li a{
     padding-bottom: 30px;
     
    }
+
+   footer li a{
+    margin: 0 5px;
+    padding: 0 5px;
+    text-align: center;
+  }
+
+   .icon-social{
+
+    
+    width: 20px;
+    height: auto;
+
+}
 
 
 
