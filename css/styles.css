@@ -249,12 +249,16 @@ footer li a{
       font-size: 20px;
   }
 
-  .menu ul {
+  nav{
     max-width: 390px;
- 
-   
   }
+
+  .logo img {
+    height: 100px;
+  }
+  
   section{
+    max-width: 390px;
     position: relative;
     margin: 0 50px;
     padding-bottom: 100px;
