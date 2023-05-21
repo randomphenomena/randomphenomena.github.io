@@ -253,8 +253,13 @@ footer li a{
     max-width: 390px;
   }
 
+  img{
+    width: 300px;
+    height: auto;
+  }
+
   .logo img {
-    height: 100px;
+    width: 100px;
   }
   
   section{
