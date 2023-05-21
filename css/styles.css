@@ -249,6 +249,8 @@ footer li a{
       font-size: 20px;
   }
 
+  
+
   nav{
     
     margin: 0 auto;
@@ -278,12 +280,20 @@ footer li a{
     width: 150px;
     height: auto;
   }
+
+  .about-text{
+    padding-top: 15px;
+    max-width: 70%;
+    margin: auto;
+    font-size: 16px;
+  }
   
   section{
     max-width: 390px;
     position: relative;
     margin: 0 10px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
+    margin-top: 10px;
     
    }
 
