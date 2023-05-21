@@ -250,23 +250,36 @@ footer li a{
   }
 
   nav{
-    max-width: 390px;
+    margin: 0;
+    text-align: center;
+  }
+
+  nav ul{
+    margin: 0;
+   width: 390px;
+  }
+
+  nav li a{
+    margin: 0 10px;
+    padding: 0 10px;
+    text-align: center;
   }
 
   img{
-    width: 300px;
+    width: 250px;
     height: auto;
   }
 
   .logo img {
-    width: 100px;
+    width: 150px;
+    height: auto;
   }
   
   section{
     max-width: 390px;
     position: relative;
-    margin: 0 50px;
-    padding-bottom: 100px;
+    margin: 0 10px;
+    padding-bottom: 30px;
     
    }
 
