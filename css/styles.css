@@ -266,11 +266,10 @@ footer li a{
 
   nav ul{
     margin: 0;
-    max-width: 300px;
   }
 
   nav li a{
-    padding: 0 10px;
+    padding: 0 5px;
     text-align: center;
     font-size: 13px;
   }
