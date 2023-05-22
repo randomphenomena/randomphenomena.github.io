@@ -267,7 +267,7 @@ footer li a{
 
   nav li a{
     margin: 0;
-    padding: 0 10px;
+    padding: 0 13px;
     text-align: center;
     font-size: 10px;
   }
@@ -330,7 +330,7 @@ footer{
 }
 
    footer li a{
-    margin: 0 5px;
+    margin: 0;
     padding: 0 5px;
     text-align: center;
   }
