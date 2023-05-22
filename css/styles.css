@@ -296,23 +296,24 @@ footer li a{
     height: auto;
   }
   .logo img {
-    width: 70%;
+    width: 60%;
     height: auto;
   }
 
   .about-text{
-    padding-top: 15px;
+    padding-top: 10px;
     max-width: 70%;
     margin: auto;
     font-size: 16px;
   }
   
   section{
+    max-width: 390px;
     position: relative;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
     padding-bottom: 30px;
     margin-top: 10px;
     
