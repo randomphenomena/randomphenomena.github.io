@@ -256,7 +256,7 @@ footer li a{
   
 
   nav{
-    
+    max-width: 480px;
     margin: 0 auto;
   }
 
