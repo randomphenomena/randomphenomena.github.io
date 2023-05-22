@@ -265,7 +265,8 @@ footer li a{
   }
 
   nav li a{
-    margin: 0 0;
+    width: 390px;
+    margin: 0 auto;
     padding-left: 5px;
     padding-right: 5px;
     text-align: center;
