@@ -37,11 +37,9 @@ h5{
 
 nav {
   margin: 0 120px;
-  width: 100%;
+  width: auto;
   position: fixed;
-  left: 0;
   top: 0;
-  right: 0;
   align-items: center;
   background-color: #231123b1;
   height: 80px;
@@ -51,7 +49,7 @@ nav {
 }
 
 .menu ul {
-  max-width: 1040px;
+  
   padding-top: 10px;
   list-style: none;
   display: flex;
@@ -83,8 +81,6 @@ body{
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
   background-color: #231123;
-
-
 }
 
 header{
