@@ -25,3 +25,23 @@
         messageElement.parentNode.removeChild(messageElement);
       }
     }
+
+
+
+   
+    // Add smooth scrolling behavior to anchor links
+    var anchorLinks = document.querySelectorAll('a.nav-item');
+  
+    anchorLinks.forEach(function(link) {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+  
+        var targetId = this.getAttribute('href');
+        var targetElement = document.querySelector(targetId);
+  
+        targetElement.scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  
