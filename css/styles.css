@@ -197,6 +197,8 @@ section{
 
 }
 
+
+
 .container-footer {
   display: flex;
   justify-content: center;
@@ -311,12 +313,23 @@ footer li a{
     
    }
 
+   .text-work-right{
+    margin-top: 50px;
+    text-align: left;
+  }
+  
+
+
+
    footer li a{
     margin: 0 5px;
     padding: 0 5px;
     text-align: center;
   }
 
+  .desktop-only{
+    display: none;
+  }
   .mobile-only{
     display: block;
   }
