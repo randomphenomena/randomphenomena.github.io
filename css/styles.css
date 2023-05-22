@@ -256,8 +256,7 @@ footer li a{
   
 
   nav{
-    max-width: 480px;
-    margin: 0 auto;
+    margin: 0;
   }
 
   nav ul{
@@ -265,12 +264,9 @@ footer li a{
   }
 
   nav li a{
-    width: 390px;
-    margin: 0 auto;
-    padding-left: 5px;
-    padding-right: 5px;
+    margin: 0 10px;
+    padding: 0 10px;
     text-align: center;
-    font-size: 10px;
   }
 
   .menu ul{
