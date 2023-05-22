@@ -266,10 +266,10 @@ footer li a{
 
   nav li a{
     margin: 0 0;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
     text-align: center;
-    font-size: 13px;
+    font-size: 10px;
   }
 
   .menu ul{
@@ -306,16 +306,16 @@ footer li a{
   }
   
   section{
-    max-width: 390px;
     position: relative;
     margin: 0 10px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     margin-top: 10px;
     
    }
 
    .text-work-right{
     margin-top: 20px;
+    margin-bottom: 40px;
     text-align: left;
     
   }
@@ -343,7 +343,7 @@ footer li a{
 }
 
 .more_work{
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 
 }
 
