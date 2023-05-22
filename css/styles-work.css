@@ -105,6 +105,10 @@ body{
     margin-top: 0px;
   }
   
+  .one-img{
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
 
   .text-work-main .col p{
     padding-left: 0px;
