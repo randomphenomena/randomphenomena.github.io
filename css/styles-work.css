@@ -106,8 +106,8 @@ body{
   }
   
   .one-img{
-    padding-bottom: 10px;
-    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
 
   .text-work-main .col p{
@@ -115,7 +115,9 @@ body{
     margin: 0;
     text-align: center;
   }
-
+footer{
+  width: 100%;
+}
   .arrow-back{
     top: 100px;
     margin-bottom: 80px;

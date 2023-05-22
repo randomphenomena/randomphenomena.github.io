@@ -231,6 +231,8 @@ section{
 
 
 
+
+
 footer li a{
   margin: 0 10px;
   padding: 0 10px;
@@ -264,13 +266,14 @@ footer li a{
   }
 
   nav li a{
-    margin: 0 10px;
+    margin: 0;
     padding: 0 10px;
     text-align: center;
+    font-size: 10px;
   }
 
   .menu ul{
-    max-width: 390px;
+    width: 100%;
   }
   header{
     margin: 0 30px;
@@ -291,7 +294,7 @@ footer li a{
     height: auto;
   }
   .logo img {
-    width: 150px;
+    width: 70%;
     height: auto;
   }
 
@@ -304,7 +307,10 @@ footer li a{
   
   section{
     position: relative;
-    margin: 0 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
     padding-bottom: 30px;
     margin-top: 10px;
     
@@ -318,7 +324,10 @@ footer li a{
   }
   
 
-
+footer{
+  width: 100%;
+  text-align: center;
+}
 
    footer li a{
     margin: 0 5px;
