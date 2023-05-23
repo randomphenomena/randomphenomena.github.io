@@ -264,6 +264,8 @@ footer li a{
   nav{
     margin: 0;
     width: 100%;
+    padding: inherit;
+    
   }
 
   nav ul{
