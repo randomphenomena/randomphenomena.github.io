@@ -38,7 +38,9 @@ h5{
 
 
 nav {
-  margin: 0 120px;
+  width: 100%;
+  padding-left: 120px;
+  padding-right: 120px;
   width: auto;
   position: fixed;
   top: 0;
@@ -51,7 +53,7 @@ nav {
 }
 
 .menu ul {
-  
+  width: 100%;
   padding-top: 10px;
   list-style: none;
   display: flex;
