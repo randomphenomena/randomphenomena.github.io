@@ -139,16 +139,16 @@ header{
 section{
  position: relative;
  margin: 0 120px;
- padding-bottom: 150px;
+ padding-bottom: 100px;
  
 }
 
 .row-right{
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 .row-left{
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   text-align: right;
 }
 
@@ -206,7 +206,7 @@ section{
 }
 
 .more_work{
-  text-align: center;
+  text-align: right;
 }
 
 .more_work h2:hover{
@@ -215,7 +215,8 @@ section{
 
 .contact{
   text-align: center;
-  height: 250px;
+  padding-top: 100px;
+  height: 400px;
 }
 
 .copyable p:hover{
@@ -259,13 +260,14 @@ footer li a{
       font-size: 20px;
   }
 
-  
+ 
 
   nav{
     margin: 0;
     width: 100%;
     padding: inherit;
     text-align: center;
+    height: 50px;
     
   }
 
@@ -288,9 +290,9 @@ footer li a{
   }
   header{
     margin: 0 30px;
-    top: 100px;
+    top: 150px;
     text-align: center;
-    padding-bottom: 150px;
+    padding-bottom: 200px;
   
   }
 
@@ -305,7 +307,7 @@ footer li a{
     height: auto;
   }
   .logo img {
-    width: 60%;
+    width: 80%;
     height: auto;
   }
 
