@@ -305,6 +305,7 @@ footer li a{
   .img-work{
     width: 350px;
     height: auto;
+    margin-bottom: 5px;
   }
   .logo img {
     width: 80%;
@@ -331,10 +332,15 @@ footer li a{
    }
 
    .text-work-right{
-    margin-top: 20px;
+    margin-top: 5px;
     margin-bottom: 40px;
     text-align: left;
     
+  }
+  
+  h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
   
 
