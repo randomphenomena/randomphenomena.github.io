@@ -363,6 +363,7 @@ footer{
 }
 
 .more_work{
+  text-align: left;
   margin-bottom: 80px;
 
 }
@@ -379,8 +380,15 @@ footer{
 }
 
 .arrow-next{
+  display: none;
   margin-top: 10px;
   margin-bottom: 60px;
+}
+
+.contact{
+  text-align: center;
+  padding-top: 50px;
+  height: 400px;
 }
 
 
