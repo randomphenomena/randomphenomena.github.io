@@ -122,7 +122,15 @@ header{
 
 .text-work-right p{
   letter-spacing: 1px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
+
+.text-work-right h3{
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
 .icon{
   fill: #F5E2C8;
   width: 20px;
