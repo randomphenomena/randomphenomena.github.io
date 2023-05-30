@@ -328,10 +328,7 @@ footer li a{
   }
   
   section{
-    max-width: 390px;
     position: relative;
-    margin-top: 0px;
-    margin-bottom: 0px;
     margin-left: 10px;
     margin-right: 10px;
     padding-bottom: 30px;
