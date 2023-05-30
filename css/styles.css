@@ -4,7 +4,7 @@
 #E85D75 - pink - reactions B
 #F9DB6D - yellow - reactions A
 #F5E2C8 -  texts
-
+1C181C
 
 font-family: 'Poppins', sans-serif;
 */
@@ -45,7 +45,7 @@ nav {
   position: fixed;
   top: 0;
   align-items: center;
-  background-color: #231123b1;
+  background-color: #1C181Cb1;
   height: 80px;
   z-index: 10;
 
@@ -84,7 +84,7 @@ body{
   padding: 0;
   font-family:'Open Sans', sans-serif;
   font-weight: 300;
-  background-color: #231123;
+  background-color: #1C181C;
 }
 
 header{
@@ -198,7 +198,7 @@ section{
 
 .footer {
   background-color:#F5E2C8;
-  color: #231123;
+  color: #1C181C;
   text-align: center;
   width: 100%;
   margin-bottom: 0px;
@@ -254,7 +254,7 @@ footer li a{
 
 .icon-social{
 
-    fill: #231123;
+    fill: #1C181C;
     width: 35px;
     height: auto;
 
