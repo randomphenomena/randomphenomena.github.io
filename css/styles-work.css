@@ -57,6 +57,11 @@ body{
   text-align: left;
 }
 
+.text-work-main .col{
+  padding-left: 50px;
+}
+
+
 
 .img-square{
   margin-top: 50px;
@@ -118,11 +123,14 @@ body{
     margin-top: 10px;
   }
 
-  .text-work-main .col p{
+  .text-work-main .col{
     padding-left: 0px;
     margin: 0;
     text-align: center;
   }
+
+
+  
 
 
   .arrow-back{
