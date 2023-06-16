@@ -97,6 +97,14 @@ header{
 
 }
 
+.logo-home svg{
+  fill: #F5E2C8;
+  height: 20px;
+  width: auto;
+&:hover{
+  fill: #ffdc65;
+}
+}
 
 
 .logo img {
