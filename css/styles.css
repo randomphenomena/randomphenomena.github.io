@@ -333,7 +333,7 @@ footer h3{
   color: #0e1018;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
-  padding: 2% 1%;
+  padding: 5% 1%;
 }
 
 .footer-links a:hover{
@@ -468,21 +468,23 @@ footer h3{
 
 
 
-
+.overlay{
+  opacity: 1;
+}
 
 
 
 .footer-link a{
   font-size: 0.7rem;
   display: block;
-  padding: 3vh 0;
+  padding: 10vh 0;
 }
 
-
+/*
 .hidden{
   transition: none;
 }
   
-
+*/
 
 
