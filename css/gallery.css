@@ -8,13 +8,8 @@
 
 font-family: 'Poppins', sans-serif;
 */
-.text-gallery{
-  margin-top: 5vh;
-  text-align: center;
-}
 .gallery {
-  margin-top: 0;
-  padding: 0 8px;
+  margin-top: 50px;
 }
 
 .gallery .col-sm-6 {
@@ -25,7 +20,7 @@ font-family: 'Poppins', sans-serif;
   position: relative;
   overflow: hidden;
   padding-bottom: 100%; /* Create a square aspect ratio (change as needed) */
-
+  border-radius: 15px;
 }
 
 .image-container img {

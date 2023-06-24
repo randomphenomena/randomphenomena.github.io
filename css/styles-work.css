@@ -1,0 +1,144 @@
+/* Colors:
+#231123 - Dark Purple - Background
+#42D9C8 - Powder Blue - reactions C
+#E85D75 - pink - reactions B
+#F9DB6D - yellow - reactions A
+#F5E2C8 -  texts
+
+
+font-family: 'Poppins', sans-serif;
+*/
+
+
+
+
+
+
+body{    
+  
+  padding: 0;
+  font-family:'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color: #231123;
+
+
+}
+
+
+.arrow-back{
+    margin: 0 120px;
+    top: 150px;
+  position: relative;
+  margin: auto;
+}
+
+.arrow-back svg{
+  width: 40px;
+  margin-bottom: 50px;
+}
+
+.arrow-back svg path:hover{
+  fill: #ffdc65;
+}
+
+
+.img-header{
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+}
+
+.col-md-4{
+  text-align: right;
+}
+
+.text-work-main{
+  margin-top: 50px;
+  text-align: left;
+}
+
+.text-work-main .col{
+  padding-left: 50px;
+}
+
+
+
+.img-square{
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+}
+
+.img-people{
+  width: 50%;
+  padding-top: 20px;
+  height: auto;
+  right: 0;
+}
+.tools{
+  text-align: right;
+  margin-top: 45px;
+}
+
+.tools ul{
+  display: inline-flex;
+  list-style: none;
+  margin-bottom: 0px;
+  
+}
+
+.tools ul li{
+  text-align: right;
+  padding-left: 15px;
+}
+
+.tools ul li svg{
+  width: 35px;
+  height: auto;
+}
+
+.tools p svg path:hover{
+  fill: #ffdc65;
+}
+
+/* Medium screens */
+@media screen and (max-width: 600px){
+
+  h2{
+    font-size: 20px;
+  }
+
+  
+  .col-md-4{
+    text-align: center;
+    padding: 0 30px;
+  }
+
+  .col-md-4 h2{
+    margin-top: 0px;
+  }
+  
+  .one-img{
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .text-work-main .col{
+    padding-left: 20px;
+    margin: 0;
+    text-align: center;
+  }
+
+
+  
+
+
+  .arrow-back{
+    top: 100px;
+    margin-bottom: 80px;
+    position: relative;
+  }
+
+
+}
+
