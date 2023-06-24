@@ -466,6 +466,11 @@ footer h3{
   display: block;
 }
 
+.footer-col{
+  width: 100%;
+  padding: 0 5vw;
+}
+
 
 
 .footer-link a{
