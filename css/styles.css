@@ -333,7 +333,7 @@ footer h3{
   color: #0e1018;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
-  padding: 0 3%;
+  padding: 2% 1%;
 }
 
 .footer-links a:hover{
@@ -468,10 +468,7 @@ footer h3{
 
 
 
-.fcol-mbl{
-  width: 100%;
-  padding: 0 2vw;
-}
+
 
 
 
@@ -482,14 +479,10 @@ footer h3{
 }
 
 
-
-
-
-
-@media (prefers-reduced-motion) {
-
 .hidden{
   transition: none;
 }
   
-}
+
+
+
