@@ -158,6 +158,10 @@ img{
   .back{
     text-align: left;
   }
+
+  .img-cases{
+    margin-bottom: 5vh;
+  }
   .col-md-4{
         text-align: center;
         padding: 0;
