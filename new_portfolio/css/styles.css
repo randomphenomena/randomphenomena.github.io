@@ -377,7 +377,8 @@ footer h3{
 @media screen and (max-width: 600px){
 
   body{
-    padding: 10%;
+    padding: 0;
+    margin: 0;
     width: 100vw;
   }
 
@@ -389,6 +390,11 @@ footer h3{
     font-size: 1.5rem;
   }
  
+  .links a{
+    font-size: 0.6rem;
+    text-decoration: none;
+    padding: 0 1vw;
+  }
 
   .presentation h2{
     font-size: 4rem;
@@ -402,8 +408,9 @@ footer h3{
 
   section{
     margin: 0;
-    padding: 0 8px;
+    padding: 0 1vw;
     margin-bottom: 3vh;
+    text-align: center;
   }
 
   img{
@@ -411,9 +418,17 @@ footer h3{
     height: auto;
   }
 
+  .desktop-only{
+    display: none;
+  }
+  .mobile-only{
+    display: block;
+  }
+
   .right{
     margin-bottom: 10px;
     margin-left: 10px;
+    text-align: left;
   }
   
   .left{
@@ -440,6 +455,16 @@ footer h3{
 
 .social{
   text-align: left;
+}
+
+footer{
+  width: 100vw;
+  display: block;
+}
+
+.footer-link{
+  display: block;
+  padding: 3vh 0;
 }
 
 
