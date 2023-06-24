@@ -154,9 +154,13 @@ img{
 
   /* Medium screens */
 @media screen and (max-width: 600px){
-    .col-md-4{
+  
+  .back{
+    text-align: left;
+  }
+  .col-md-4{
         text-align: center;
-        padding: 0 30px;
+        padding: 0;
       }
     
       .col-md-4 h2{
@@ -164,9 +168,21 @@ img{
       }
 
       .text-cases .col{
-        padding-left: 20px;
+        
         margin: 0;
         text-align: center;
       }
+
+      .two-img{
+        display: block;
+      }
+
+      .tools h2{
+        font-size: 1.3rem;
+      }
     
+      .tools ul li svg{
+        width: 20px;
+        height: auto;
+      }
 }

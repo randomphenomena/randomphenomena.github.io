@@ -397,6 +397,10 @@ footer h3{
     min-height:fit-content;
    
 }
+.presentation{
+  margin: 10vh 0 ;
+}
+
 
   .presentation h2{
     font-size: 4rem;
