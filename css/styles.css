@@ -344,7 +344,7 @@ footer h3{
 
 .icon-social{
  
-  height: 2rem;
+  height: 1.5rem;
   width: auto;
   
 }
@@ -466,16 +466,9 @@ footer h3{
   
 }
 
-.foot-mbl{
- 
-   width: 100%;
-   height: 10vh;
-   padding: 5vh 2vw;
- 
- }
 
 
-.footer-col{
+.fcol-mbl{
   width: 100%;
   padding: 0 2vw;
 }
@@ -488,12 +481,7 @@ footer h3{
   padding: 3vh 0;
 }
 
-.mbl-social{
- 
-  height: 1rem;
-  width: auto;
-  
-}
+
 
 
 
