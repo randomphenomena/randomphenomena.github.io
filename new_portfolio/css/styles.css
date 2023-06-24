@@ -180,7 +180,6 @@ section{
 
 .cases-page h2{
   color: var(--main-color);
-  margin-bottom: 1vh;
 }
 .right{
     margin-bottom: 10px;
@@ -394,6 +393,11 @@ footer h3{
     padding: 0 1vw;
   }
 
+  .front-page{
+    min-height:fit-content;
+   
+}
+
   .presentation h2{
     font-size: 4rem;
     padding-top: 5vh;
@@ -434,8 +438,8 @@ footer h3{
   }
   
   .text-work{
-    margin-top: 5vh;
-    margin-bottom: 20vh;
+    margin-top: 0vh;
+    margin-bottom: 5vh;
     text-align: left;
   }
 
@@ -458,7 +462,9 @@ footer h3{
   display: block;
 }
 
-.footer-link{
+
+
+.footer-link a{
   display: block;
   padding: 3vh 0;
 }
