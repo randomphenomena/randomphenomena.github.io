@@ -180,6 +180,7 @@ section{
 
 .cases-page h2{
   color: var(--main-color);
+  margin-bottom: 1vh;
 }
 .right{
     margin-bottom: 10px;
@@ -382,9 +383,6 @@ footer h3{
     width: 100vw;
   }
 
-  body{
-    padding: 0 2vw;
-  }
 
   h2{
     font-size: 1.5rem;
@@ -426,14 +424,12 @@ footer h3{
   }
 
   .right{
-    margin-bottom: 10px;
-    margin-left: 10px;
+    margin-bottom: 2vh; 
     text-align: left;
   }
   
   .left{
-    margin-bottom: 10px;
-    margin-left: 10px;
+    margin-bottom: 2vh;
     text-align: left;
   }
   
@@ -457,7 +453,7 @@ footer h3{
   text-align: left;
 }
 
-footer{
+.container{
   width: 100vw;
   display: block;
 }
