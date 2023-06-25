@@ -454,63 +454,33 @@ footer h3{
     text-align: left;
   }
 
+  .container{
+    width: 100vw;
+    
+  }
   
-
-}
-
-.quick-links{
-  text-align: left;
-}
-
-.social{
-  text-align: left;
-}
-
-.container{
-  width: 100vw;
+  .fcol-mbl{
+    width: 100%;
+    text-align: center;
+    
+  }
   
-}
-
-<<<<<<< HEAD
-.fcol-mbl{
-  width: 100%;
-  text-align: center;
   
-=======
+  
+  .footer-link a{
+    font-size: 0.7rem;
+    display: block;
+    padding: 10vh 0;
+  }
+  
+  /* margin imgcoco*/
+  .imgcoco{
+    margin-bottom: 5vh;
+  }
 
-
-.overlay{
-  opacity: 1;
->>>>>>> parent of ec534be (lst chngs f nght)
 }
 
 
-
-.footer-link a{
-  font-size: 0.7rem;
-  display: block;
-  padding: 10vh 0;
-}
-
-<<<<<<< HEAD
-/* margin imgcoco*/
-.imgcoco{
-  margin-bottom: 5vh;
-}
-}
-
-
-
-
-
-
-
-
-
-
-
-=======
->>>>>>> parent of ec534be (lst chngs f nght)
 /*
 .hidden{
   transition: none;
