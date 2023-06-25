@@ -388,11 +388,16 @@ footer h3{
   h2{
     font-size: 1.5rem;
   }
+
+  nav{
+    max-width: 100%;
+    padding: 1vh 1vw;
+  }
  
   .links a{
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     text-decoration: none;
-    padding: 0 1vw;
+    padding: 0 0.5vw;
   }
 
   .front-page{
@@ -468,6 +473,7 @@ footer{
 
 .fcol-mbl{
   width: 100%;
+  text-align: center;
   
 }
 
@@ -477,6 +483,10 @@ footer{
   padding: 10vh 0;
 }
 
+/* margin imgcoco*/
+.imgcoco{
+  margin-bottom: 5vh;
+}
 }
 
 
