@@ -168,7 +168,8 @@ img{
       }
 
       .text-cases .col{
-        padding: 0 2vw;
+        padding-left: 10vh;
+        padding-right: 10vh;
         margin: 0;
         text-align: center;
       }

@@ -390,8 +390,8 @@ footer h3{
   }
 
   nav{
-    max-width: 100vw;
-    padding: 1vh 1vw;
+    width: 100vw;
+    padding: 1vh 4vw;
   }
   .logo svg{
     height: 1rem;
@@ -486,10 +486,13 @@ footer h3{
     padding: 10vh 0;
   }
   
-  /* margin imgcoco*/
+  /* margin 
   .imgcoco{
     margin-bottom: 5vh;
   }
+  imgcoco*/
+
+
 
 }
 
