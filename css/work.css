@@ -49,6 +49,50 @@ img{
     height: auto;
 }
 
+.back{
+  text-align: right;
+  margin-right: 5rem;
+  margin-top: 5rem;
+}
+
+
+.back-button{
+  
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  border-radius: 3rem;
+  padding: 10px 10px;
+}
+
+
+.back-button:hover {
+  border: 3px solid var(--main-color);
+  border-radius: 3rem;
+  transition: 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.back-button:disabled {
+  pointer-events: none;
+}
+
+
+
+.back-button:active {
+  box-shadow: none;
+}
+
+
+.back-button svg{
+  width: 1rem;
+  height: auto;
+  stroke: var(--main-color);
+}
+
+
+
 .col-md-4{
     text-align: right;
   }

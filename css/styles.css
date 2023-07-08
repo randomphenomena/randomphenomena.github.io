@@ -249,7 +249,7 @@ section{
 
 /*end oh show animation*/
 
-button{
+.mail-send{
   
   cursor: pointer;
   background: transparent;
@@ -260,11 +260,11 @@ button{
   padding: 10px 25px;
 }
 
-button:disabled {
+.mail-send:disabled {
   pointer-events: none;
 }
 
-button:hover {
+.mail-send:hover {
   color: #0e1018;
   background-color:var(--main-color);
   transition: 0.3s ease;
@@ -272,7 +272,7 @@ button:hover {
   transform: translateY(-2px);
 }
 
-button:active {
+.mail-send:active {
   box-shadow: none;
 }
 
@@ -375,13 +375,30 @@ footer h3{
   transition: all 0.3s ease;
 }
 
-/* Medium screens */
-@media screen and (max-width: 600px){
+/*Tablet screens*/
+@media screen and (max-width: 800px) {
+  .desktop-only{
+    display: none;
+  }
+  .mobile-only{
+    display: block;
+  }
+
+ 
+
+
+  .overlay{
+    opacity: 1;
+  }
+  
+}
+
+/* Mobile screens */
+@media screen and (max-width: 480px){
 
   body{
-    padding: 0;
     margin: 0;
-    width: 100vw;
+   
   }
 
 
@@ -391,7 +408,7 @@ footer h3{
 
   nav{
     width: 100vw;
-    padding: 1vh 4vw;
+    padding: 1vh 0;
   }
   .logo svg{
     height: 1rem;
@@ -419,8 +436,8 @@ footer h3{
   }
 
   .presentation p{
-    font-size: 1rem;
-    padding: 1rem 1rem;
+    font-size: 0.8rem;
+    padding: 1rem 3rem;
   }
 
   section{
