@@ -55,7 +55,6 @@ img{
   margin-top: 5rem;
 }
 
-
 .back-button{
   
   cursor: pointer;
@@ -197,11 +196,34 @@ img{
   
 
   /* Medium screens */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 480px){
   
   .back{
     text-align: right;
+    margin-right: 5rem;
+    margin-top: 2rem;
   }
+  
+
+
+  .back-button {
+    border: 1px solid var(--main-color);
+    border-radius: 3rem;
+    transform: translateY(-2px);
+    padding: 7px 7px;
+  }
+  
+  .back-button:disabled {
+    pointer-events: none;
+  }
+  
+  
+  .back-button svg{
+    width: 0.5rem;
+    height: auto;
+    stroke: var(--main-color);
+  }
+  
   .col-md-4{
         text-align: center;
         padding: 0;
