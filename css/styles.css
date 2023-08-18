@@ -390,6 +390,28 @@ footer h3{
   
 }
 
+
+/* Tablet screens */
+
+@media screen and (max-width: 768px){
+  .desktop-only{
+    display: none;
+  }
+  .mobile-only{
+    display: block;
+  }
+
+  .fcol-mbl{
+    width: 100%;
+    text-align: center;
+    
+  }
+  
+  .overlay{
+    opacity: 1;
+  }
+
+}
 /* Mobile screens */
 @media screen and (max-width: 480px){
 
