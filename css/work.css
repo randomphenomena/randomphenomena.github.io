@@ -46,8 +46,7 @@
 }
 
 .image-half-json{
-  height: 400px;
-  background: var(--light-melon);
+  height: 700px;
   border-radius: 24px;
 }
 .social-onlyauth{
@@ -184,6 +183,11 @@
       
         height: 300px;
       }
+
+      .image-half-json{
+        height: 500px;
+        border-radius: 24px;
+      }
   
   }  
 
@@ -253,4 +257,8 @@
         display: none;
       }
       
+      .image-half-json{
+        height: 300px;
+        border-radius: 24px;
+      }
   }
