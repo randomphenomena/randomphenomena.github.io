@@ -1,0 +1,671 @@
+/*Yuki*/
+#hero-yuki{
+    background-image: url('../img/yukiheadphone/yuki_1.png');
+    background-size:cover;
+    background-position: center;
+    
+  }
+
+  #mid-yuki2{
+    background-image: url('../img/yukiheadphone/yuki_2b.png');
+    background-size:cover;
+    background-position: center;
+    height: 200px;
+  border-radius: 24px;
+  margin-bottom: 64px;
+   
+
+}
+
+#square-yuki3{
+    background-image: url('../img/yukiheadphone/yuki_3C.png');
+    background-size:cover;
+    background-position: center;
+    height: 300px;
+    
+    
+}
+
+#square-yuki4{
+    background-image: url('../img/yukiheadphone/yuki_5_b.png');
+    background-size:cover;
+    background-position: center;
+    
+    
+}
+
+#square-yuki5{
+    background-image: url('../img/yukiheadphone/yuki_6.png');
+    background-size:cover;
+    background-position: center;
+    
+    
+}
+
+
+
+@media screen and (max-width: 600px){
+    #mid-yuki2{
+        background-image: url('../img/yukiheadphone/yuki_2b.png');
+        height: 80px;
+      margin-bottom: 32px;
+       
+    
+    }
+
+    #square-yuki3{
+    
+        height: 180px;
+        
+        
+    }
+    
+
+}
+
+
+/*SkinWise*/
+
+#hero-skinwise{
+  background-image: url('../img/skinwise/skinwise_1.png');
+  background-size:cover;
+  background-position: center;
+}
+
+#user-persona{
+  background-image: url('../img/skinwise/skinwise_pA.png');
+  background-size:contain ;
+  background-position: center;
+  height: 200px;
+  background-repeat: no-repeat;
+}
+
+#user-personaB{
+  background-image: url('../img/skinwise/skinwise_pB.png');
+  background-size:contain ;
+  background-position: center;
+  height: 200px;
+  background-repeat: no-repeat;
+}
+
+#skinwise2{
+background-image: url(../img/skinwise/skinwise_2.png);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+height: 800px;
+}
+
+#skinwise3{
+  background-image: url('../img/skinwise/skinwise_3.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#skinwise4{
+  background-image: url('../img/skinwise/skinwise_4.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#skinwise5{
+  background-image: url('../img/skinwise/skinwise_5.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+
+#skinwise6{
+  background-image: url('../img/skinwise/skinwise_6.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -50px;
+}
+
+#skinwise7{
+  background-image: url('../img/skinwise/skinwise_7.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+#skinwise8{
+  background-image: url('../img/skinwise/skinwise_8.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1700px;
+  
+}
+
+@media screen and (max-width: 600px){
+  #user-persona{
+    height: 150px;
+  }
+  #user-personaB{
+    height: 150px;
+  }
+
+  #skinwise2{
+   background-size: contain;
+    height: 400px;
+    margin-bottom: 60px;
+    }
+
+  #skinwise3{
+    background-size: cover;
+    height: 150px;
+    margin-bottom: 60px;
+  }
+  #skinwise5{
+    height: 400px;
+  }
+
+  #skinwise6{
+    margin-top: 0px;
+  }
+
+  #skinwise7{
+    height: 400px;
+  }
+
+  #skinwise8{
+    height: 800px;
+  }
+}
+
+
+/*Onlyauth*/
+
+#hero-onlyauth{
+  background-image: url('../img/onlyauth/hero_1.png');
+  background-size:cover;
+  background-position: center;
+}
+
+#onlyauth2{
+  background-image: url('../img/onlyauth/icon_main_1.png');
+  background-size:contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+
+}
+
+#onlyauth3{
+  background-image: url('../img/onlyauth/front-img.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#onlyauth4{
+  background-image: url('../img/onlyauth/icons_b.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#onlyauth5{
+  background-image: url('../img/onlyauth/Social-Mediamockup.png');
+  background-size:contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+#onlyauth6{
+  background-image: url('../img/onlyauth/app_1.png');
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+
+@media screen and (max-width: 600px){
+
+  .wide-central{
+    height: 200px
+  }
+
+  #onlyauth4{
+    background-image: url('../img/onlyauth/icons_b_mobile.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  #onlyauth5{
+      height: 300px;
+  }
+
+  .text-squareB-project{
+    height: 300px;
+  }
+
+  .image-half{
+    margin-bottom: 32px;
+  }
+  #onlyauth6{
+  
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px){
+  #onlyauth4{
+    background-image: url('../img/onlyauth/icons_b_mobile.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+  }
+
+  #onlyauth5{
+    height: 500px;
+}
+
+#onlyauth6{
+  
+  height: 200px;
+}
+
+}
+
+
+/*DCO*/
+
+#hero-dco{
+  background-image: url('../img/dco/dco_1.png');
+  background-size:cover;
+  background-position: center;
+}
+
+#dco2{
+  background-image: url('../img/dco/dco_2b.png');
+  background-size:cover;
+  background-position: center;
+  margin-top: 62px;
+  margin-bottom: 24px;
+}
+
+#dco3{
+  background-image: url('../img/dco/dco_3b.png');
+  background-size:cover;
+  background-position: center;
+  margin-top: 62px;
+  margin-bottom: 24px;
+}
+#dco4{
+  background-image: url('../img/dco/dco_4.png');
+  background-size:cover;
+  background-position: center;
+  margin-top: 62px;
+  margin-bottom: 24px;
+}
+
+#dco5{
+  background-image: url('../img/dco/dco_5.png');
+  background-size:cover;
+  background-position: center;
+  height: 410px;
+  margin-top: 62px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 600px){
+
+  #dco2{
+   
+    margin-bottom: 12px;
+  }
+  #dco3{
+    margin-top: 24px;
+    margin-bottom: 8px;
+  }
+
+  
+  #dco4{
+    margin-top: 24px;
+    margin-bottom: 12px;
+  }
+
+  #dco5{
+    background-size:contain;
+    margin-bottom: 12px;
+  }
+}
+
+
+/*CocoBites*/
+
+#hero-coco{
+  background-image: url('../img/cocobites/coco_1.png');
+  background-position: center;
+  background-size: cover;
+}
+
+#coco2{
+  background-image: url('../img/cocobites/coco_3.png');
+  background-position: center;
+  background-size: cover;
+
+}
+
+#coco3{
+  background-image: url('../img/cocobites/coco_2.png');
+  background-position: center;
+  background-size: cover;
+
+}
+
+#coco4{
+  background-image: url('../img/cocobites/coco_4.png');
+  background-position: center;
+  background-size: cover;
+  height: 650px;
+  margin-bottom: 0px;
+
+}
+
+#coco5{
+  background-image: url('../img/cocobites/coco_5.png');
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 0px;
+
+}
+
+#coco6{
+  background-image: url('../img/cocobites/coco_6.png');
+  background-position: center;
+  background-size: cover;
+
+}
+
+#coco7{
+  background-image: url('../img/cocobites/coco_7.png');
+  background-position: center;
+  background-size: cover;
+
+}
+
+#coco8{
+  background-image: url('../img/cocobites/coco_8.png');
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 0px;
+
+}
+
+#coco9{
+  background-image: url('../img/cocobites/coco_9.png');
+  background-position: contain;
+  background-size: cover;
+  margin-bottom: 18px;
+  height: 200px;
+
+}
+
+@media screen and (max-width: 600px){
+  
+
+  #coco4{
+  height: 300px;
+  
+  }
+  #coco5{
+   height: 300px;
+  
+  }
+
+  #coco9{
+    height: 100px;
+    margin-bottom: 18px;
+  }
+  
+
+}
+
+/*AmericanFlyers*/
+
+#hero-flyers{
+  background-image: url('../img/americanflyers/hero_1.png');
+  background-size: cover;
+  background-position: center;
+  
+}
+
+#flyers2{
+  background-image: url('../img/americanflyers/af1.png');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0px;
+  
+}
+
+#flyers3{
+  background-image: url('../img/americanflyers/af2.png');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0px;
+  
+}
+
+#flyers4{
+  background-image: url('../img/americanflyers/af3.png');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0px;
+  
+}
+
+#flyers5{
+  background-image: url('../img/americanflyers/af4.gif');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 18px;
+}
+
+/*Giardino*/
+
+#hero-giardino{
+  background-image: url('../img/giardino/giardino_hero.jpg');
+  background-size: cover;
+  background-position: center;
+  
+}
+
+#giardino2{
+  background-image: url('../img/giardino/giardino_2.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0px;
+  
+}
+
+#giardino3{
+  background-image: url('../img/giardino/giardino_3.jpg');
+  background-size: contain;
+  background-position: center;
+  height: 1500px;
+  margin-bottom: 18px;
+  
+}
+
+@media screen and (max-width: 600px){
+  #giardino2{
+    height: 280px;
+    background-size: cover; 
+    
+  }
+  
+  #giardino3{
+    background-size: cover;
+    height: 700px;
+    
+  }
+}
+
+/*Uzee*/
+
+#hero-uzee{
+  background-image: url('../img/uzee/hero_uzee.png');
+  background-size: cover;
+  background-position: center;
+  
+
+}
+
+#uzee2{
+  background-image: url('../img/uzee/uzee_2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  margin-bottom: 0px;
+}
+
+#uzee3{
+  background-image: url('../img/uzee/uzee_3.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  margin-bottom: 0px;
+}
+
+#uzee4{
+  background-image: url('../img/uzee/uzee_4.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  margin-bottom: 0px;
+}
+#uzee5{
+  background-image: url('../img/uzee/uzee_1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  margin-bottom: 18px;
+}
+
+@media screen and (max-width: 600px){
+  #uzee2{
+    height: 300px;
+  }
+  #uzee3{
+    height: 300px;
+  }
+  #uzee4{
+    height: 300px;
+  }
+  #uzee5{
+    height: 300px;
+  }
+}
+
+
+
+/*Motion 3D*/
+#hero-3d{
+  background-image: url('../img/Motion3D/hero_3D.png');
+  background-size: cover;
+  background-position: center;
+  margin-top: 32px;
+  margin-bottom: 0px;
+}
+
+#motion2{
+  background-image: url('../img/Motion3D/bird.png');
+  background-size: cover;
+  background-position: center;
+
+}
+
+#motion3{
+  background-image: url('../img/Motion3D/bera.png');
+  background-size: cover;
+  background-position: center;
+
+}
+
+#motion4{
+  background-image: url('../img/Motion3D/flower.png');
+  background-size: cover;
+  background-position: center;
+
+}
+
+#motion5{
+  background-image: url('../img/Motion3D/tree.png');
+  background-size: cover;
+  background-position: center;
+
+}
+
+#motion6{
+  background-image: url('../img/Motion3D/cream_pops_1.png');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0px;
+}
+
+#motion7{
+  background-image: url('../img/Motion3D/peacoock.gif');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0px;
+}
+#motion8{
+  background-image: url('../img/Motion3D/fire.gif');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0px;
+}
+#motion9{
+  background-image: url('../img/Motion3D/alarm_toggle.gif');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0px;
+}
+#motion10{
+  background-image: url('../img/Motion3D/menu_burger.gif');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0px;
+}
+#motion11{
+  background-image: url('../img/Motion3D/send-button.gif');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0px;
+}
+#motion12{
+  background-image: url('../img/Motion3D/reaction-tap.gif');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0px;
+}
+
+#motion13{
+  background-image: url('../img/Motion3D/ghost.gif');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0px;
+}
+
+
+@media screen and (max-width: 600px){
+
+  .col-2-mobile{
+    grid-column: span 2;
+    background-size: cover;
+    height: 200px;
+  
+  }
+
+ 
+}
+

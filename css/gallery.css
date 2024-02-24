@@ -1,45 +1,180 @@
-/* Colors:
-#231123 - Dark Purple - Background
-#42D9C8 - Powder Blue - reactions C
-#E85D75 - pink - reactions B
-#F9DB6D - yellow - reactions A
-#F5E2C8 -  texts
+/*Desktop*/
 
-
-font-family: 'Poppins', sans-serif;
-*/
-.text-gallery{
-  margin-top: 5vh;
+#portfolio-main{
+  position:relative ;
+  margin: 64px 120px 0 120px;
   text-align: center;
 }
-.gallery {
-  margin-top: 0;
-  padding: 0 8px;
+
+#portfolio-main p{
+  margin-top: 32px
+}
+main{
+  padding-bottom: 64px;
+}
+#gallery-portfolio{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 24px;
+  margin-top: 64px;
+  margin-bottom: 64px;
 }
 
-.gallery .col-sm-6 {
-  padding: 5px;
+.project-image-portfolio{
+  height: 400px;
+  background: var(--light-melon);
+  border-radius: 25px;
 }
 
-.image-container {
-  position: relative;
-  overflow: hidden;
-  padding-bottom: 100%; /* Create a square aspect ratio (change as needed) */
 
+.project-image-portfolio h2{
+ font-size: 35px;
 }
 
-.image-container img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
+.project-image-portfolio:hover .overlay{
+  opacity: 1;
 }
 
-/* Medium screens */
-@media screen and (min-width: 600px) {
-
+#microanimation{
+  grid-column: span 1;
 }
 
+#onlyauth{
+  grid-column: span 3;
+}
+
+#dco{
+  grid-column: span 2;
+}
+
+#flyers{
+  grid-column: span 3;
+}
+
+#cocobites{
+  grid-column: span 2;
+}
+#uzee{
+  grid-column: span 2;
+}
+
+#yuki{
+  background-image: url(../img/yukiheadphone/yuki_home.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#flyers{
+  background-image: url('../img/americanflyers/af1.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#giardino{
+  background-image: url('../img/giardino/giardino.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#uzee{
+  background-image: url('../img/uzee/uzee_1.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#animations{
+  background-image: url('../img/Motion3D/cream_pops_1.png');
+  background-size: cover;
+  background-position: center;
+}
+
+/*tablet*/
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+#portfolio-main{
+  margin: 0 70px;
+  
+}
+
+#portfolio-main p{
+  margin-top: 20px
+}
+#gallery-portfolio{
+  grid-gap: 18px;
+  
+}
+.project-image-portfolio{
+  grid-column: span 2;
+  height: 300px;
+}
+
+#animations{
+  grid-column: span 2;
+}
+
+#onlyauth{
+  grid-column: span 2;
+}
+
+#dco{
+  grid-column: span 2;
+}
+
+#flyers{
+  grid-column: span 2;
+}
+
+#various{
+  grid-column: span 2;
+}
+
+#cocobites{
+  grid-column: span 4;
+}
+
+}
+/*mobile*/
+
+@media screen and (max-width: 600px){
+#portfolio-main{
+  margin: 0 24px
+  
+}
+
+#portfolio-main p{
+  margin-top: 24px
+}
+
+#gallery-portfolio{
+  grid-gap: 12px;
+  
+}
+
+.project-image-portfolio{
+  grid-column: span 4;
+  height: 200px;
+}
+#microanimation{
+  grid-column: span 4;
+}
+
+#onlyauth{
+  grid-column: span 4;
+}
+
+#dco{
+  grid-column: span 4;
+}
+
+#flyers{
+  grid-column: span 4;
+}
+
+
+#cocobites{
+  grid-column: span 4;
+}
+#uzee{
+  grid-column: span 4;
+}
+}

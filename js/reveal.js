@@ -16,21 +16,18 @@ hiddenElements.forEach((el) => observer.observe(el));
 
 
 /* burger menu */
-const burger = document.querySelector('nav .burger');
 
-burger.addEventListener('click', () => {
-    if(burger.classList.contains('active')){
-        gsap.to('.links', {x: '100%'});
-        gsap.set("body", {overflow:"auto"});
-        gsap.set("body", {overflowX: "hidden"});
+const toggleMenuElement = document.getElementById('menu-button')
+const mainMenuElement = document.getElementById('nav-dropdown')
 
-    } else{
-        gsap.to('.links', {x: '0%'});
-        gsap.fromTo('.links a',
-         {opacity: 0, y: 0},
-         {opacity: 1, y: 20, delay:0.25, stagger:0.25});
-        gsap.set("body", {overflow:"hidden"});
 
+function toggleDisplay () {
+    if (mainMenuElement.style.display === 'none') {
+        mainMenuElement.style.display = 'block' ;
+    } else {
+        mainMenuElement.style.display = 'none' ;
     }
-    burger.classList.toggle("active");
-})
+}
+
+
+toggleMenuElement.addEventListener('click', toggleDisplay);

@@ -1,0 +1,189 @@
+#home-about{
+    margin-bottom: 15%;
+  }
+
+  
+#about-body{
+    margin: 64px 120px 0 120px;
+    text-align: center;
+    
+  }
+
+.about-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:auto;
+    grid-gap: 64px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+
+
+
+
+.mephoto{
+    border-radius: 50%;
+   
+}
+.col-left{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    grid-column-start: 1;
+    justify-content: center;
+}
+
+.button-mobile{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    grid-column-start: 1;
+   text-align: center;
+   margin-top: 3rem;
+
+}
+
+
+.about-text{
+    grid-row: span 2;
+}
+
+.left-about{
+    margin-right: 120px;
+}
+
+.button-resume{
+    text-decoration: underline;
+    padding: 15px 20px 15px 20px;
+    border-radius: 25px;
+}
+
+.button-resume:hover{
+    background: #ffad9a1c;
+    transition: background 0.7s ease;
+}
+
+.col-right{
+    text-align: center;
+    line-height: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+
+}
+
+#main-tools{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+#gif-about{
+    background-image: url('../img/birds.gif') ;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.gif-about{
+    border-radius: 24px;
+}
+
+
+
+
+
+/* mobile */
+
+@media screen and (max-width: 600px){
+
+    #about-body{
+        margin: 24px 24px 0 24px;
+        text-align: center;
+      }
+      .about-grid{
+        grid-gap: 3rem;
+        margin-top: 24px;
+        margin-bottom: 5rem;
+    }
+
+      .about-col-2{
+        grid-column: span 2;
+      }
+   
+    .about-text{
+        grid-row-start: 1;
+        grid-column: span 2;
+    }
+
+    #main-tools{
+        grid-row-start: 2;
+        grid-column: span 2;
+    }
+
+    .button-mobile{
+        
+        text-align: center;
+        grid-row-start: 4;
+        grid-column: span 2;
+        margin-top: 4rem;
+    }
+   
+
+    #gif-about{
+        grid-row-start: 3;
+        height: 100px;
+        grid-column: span 2;
+    }
+    
+  
+    
+}
+
+
+/* tablet */
+
+@media screen and (min-width: 600px) and (max-width: 1000px){
+    #about-body{
+        margin: 32px 70px 0 70px;
+        text-align: center;
+        
+      }
+
+      .about-grid{
+        grid-gap: 52px;
+        margin-top: 24px;
+        margin-bottom: 52px;
+    }
+
+    #gif-about{
+      
+        height: 100px;
+    }
+    .about-text{
+        grid-row-start: 1;
+        grid-column: span 2;
+    }
+
+    #main-tools{
+        grid-row-start: 2;
+        grid-column: span 2;
+    }
+
+    .button-mobile{
+        
+        text-align: center;
+        grid-row-start: 4;
+    }
+   
+
+    #gif-about{
+        grid-row-start: 4;
+        height: 100px;
+      
+    }
+
+    
+  
+}
