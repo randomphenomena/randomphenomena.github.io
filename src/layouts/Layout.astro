@@ -1,0 +1,62 @@
+---
+interface Props {
+	title: string;
+}
+const { title } = Astro.props;
+
+import Nav from "../components/Nav";
+import Footer from "../components/Footer";
+import { ViewTransitions } from 'astro:transitions';
+
+---
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="../../public/home_plant.svg" />
+		<meta name="generator" content={Astro.generator} />
+		
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+
+
+		<title>{title}</title>
+		<ViewTransitions />
+	</head>
+<body class="flex flex-col min-h-screen">
+	<main transition:animate="fade" class="flex-1">
+		<Nav client:load/>
+		<slot />
+		
+		
+	</main>
+	<Footer />
+</body>
+</html>
+
+<style>
+	:root{
+  --dark-color: #121212;
+  --light-color: #E7E7E7;
+  --main-melon: #FFAC9A;
+  
+}
+
+	html {
+		font-family: system-ui, sans-serif;
+		background: var(--dark-color);
+		background-size: 224px;
+		color: var(--light-color);
+	}
+
+	.bio-short{
+  font-size: 2em;
+  text-align: center;
+  width: 4%;
+}
+</style>

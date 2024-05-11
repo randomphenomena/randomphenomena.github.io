@@ -1,0 +1,126 @@
+---
+import HeroProject from "../../components/workComponents/heroProject.astro"
+import Layout from "../../layouts/Layout.astro"
+import LottieAnimation from "astro-integration-lottie/Lottie.astro";
+
+
+
+
+---
+
+<Layout title="SkinWise">
+    <HeroProject
+    href="../../public/img/skinwise/skinwise_1.png"
+    description1="Mobile app that focus on delivering a clean user experience, providing personalized recommendations, offering motivating features like progress tracking, and regularly updating content to address evolving skincare needs. The lack of skincare knowledge, overwhelming product options, inconsistent routines for specific skin concerns, and the need for tracking and progress monitoring."
+    role="UI/UX designer"
+    tool1="Figma"
+    tool2="Illustrator" 
+    time="4 Weeks"
+    />
+
+    <div class="relative flex flex-col items-center gap-24 mx-6 lg:mx-52 mb-32">
+        <div class="relative flex flex-col gap-12 md:gap-24 justify-center items-center ">
+            <div class="text-4xl font-Alice text-main-melon">
+                <h1>User Persona</h1>
+            </div>
+            <div class="flex md:flex-row flex-col justify-center items-center gap-12">
+            <div class="flex flex-col justify-center items-center gap-12">
+                <img class=" w-40" src="../../public/img/skinwise/skinwise_pA.png" alt="">
+                <p><strong>Sarah 25</strong>, works in a busy marketing agency and spends a lot of time in front of a computer. She is concerned about the effects of blue light on her skin, and is looking for a skincare routine that will help protect her skin from environmental stressors. She is also interested in learning more about the ingredients in her skincare products and how they can benefit her skin.</p>
+                
+            </div>
+            <div class="flex flex-col justify-center items-center gap-12">
+                <img class=" w-40" src="../../public/img/skinwise/skinwise_pB.png" alt="">
+                <p><strong>David 40</strong>, is a busy dad who spends a lot of time outdoors with his kids. He enjoys hiking, camping, and other outdoor activities, but is worried about the effects of sun exposure on his skin. He is looking for a skincare app that will help him find sunscreen and other skincare products that are effective and easy to use while he's on-the-go. </p>
+                
+            </div>
+            </div>
+          </div>
+          
+          <div class="flex flex-col justify-center items-center gap-4" >
+            <h1 class="text-4xl font-Alice text-main-melon">User Flow</h1>
+            <img class="rounded-3xl" src="../../public/img/skinwise/skinwise_2.png" alt="">
+          </div>
+      
+                
+        
+            <div class="relative flex  flex-col gap-12 justify-center items-center ">
+                <h1 class="text-4xl font-Alice text-main-melon">Branding</h1>
+                
+                <div class="relative flex flex-row md:gap-12 gap-0 justify-center items-center ">
+              <div class="flex justify-center rounded-3xl">
+                  <img class="rounded-3xl" src="../../public/img/skinwise/skinwise_3.png" alt="">
+              </div>
+              <div class="flex justify-center rounded-3xl">
+                <img class="rounded-3xl " src="../../public/img/skinwise/skinwise_3b.png" alt="">   
+              </div>
+            </div>
+            <p>This color palette combines soft pinks, lavender as principals to create a sensitive and feminine atmosphere that aligns with the skincare app's desired aesthetic with the use of green and blue for some contrast.
+
+              And for the tipography, the font “mermaid” for titles and subtitles, and the family “poppins” for paragraphs</p>
+            <div class="relative flex  flex-row md:gap-12 gap-0 justify-center items-center ">
+              <div class="flex justify-center rounded-3xl">
+                  <img class="rounded-3xl" src="../../public/img/skinwise/skinwise_4.png" alt="">
+              </div>
+              <div class="flex justify-center rounded-3xl">
+                <img class="rounded-3xl " src="../../public/img/skinwise/skinwise_4b.png" alt="">   
+              </div>
+            </div>
+            </div>
+
+            <div class="flex flex-col justify-center items-center gap-12" >
+              <h1 class="text-4xl font-Alice text-main-melon">Wireframes</h1>
+              <img  src="../../public/img/skinwise/skinwise_5.png" alt="">
+            </div>
+            <div class="flex flex-col justify-center items-center gap-12" >
+              <h1 class="text-4xl font-Alice text-main-melon">Variants & Cards</h1>
+              <img  src="../../public/img/skinwise/skinwise_6.png" alt="">
+              <img  src="../../public/img/skinwise/skinwise_7.png" alt="">
+            </div>
+
+            <div class="flex flex-col justify-center items-center gap-12" >
+              <h1 class="text-4xl font-Alice text-main-melon">Final Design</h1>
+              <img  src="../../public/img/skinwise/skinwise_8.png" alt="">
+            </div>
+        </div>
+
+       
+          
+           
+
+          
+
+           
+           
+    <!-- button -->
+    <div class="relative flex  md:justify-end justify-center mx-6 lg:mx-52 mb-24 ">
+      <a
+        class="relative 
+        flex hover:gap-8
+        gap-2 
+        transition-all
+         w-max justify-center 
+         items-center rounded-full border border-accent p-3 text-accent hover:bg-accent hover:border-accent hover:text-dark-color focus:outline-none focus:ring active:main-melon px-8"
+        href="/projects"
+      >
+      <h1 class=" font-Alice text-3xl ">Portfolio</h1>
+        <svg 
+          class="size-5 rtl:rotate-180"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="4"
+            d="M14 5l7 7m0 0l-7 7m7-7H3"
+          />
+        </svg>
+      </a>
+      </div>
+    
+</Layout>
+
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
