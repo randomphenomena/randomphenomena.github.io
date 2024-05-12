@@ -7,7 +7,7 @@ import lottie from "astro-integration-lottie";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://randomphenomena.com/',
+  site: 'https://randomphenomena.github.io',
   integrations: [
     tailwind(),
     react(),
