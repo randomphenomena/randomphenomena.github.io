@@ -1,0 +1,83 @@
+---
+import HeroProject from "../../components/workComponents/heroProject.astro"
+import Layout from "../../layouts/Layout.astro"
+---
+
+<Layout title="CocoBites">
+    <HeroProject
+    href="../../public/img/cocobites/coco_1.png"
+    description1="Vegan coffee shop that aims to cultivate a warm and welcoming atmosphere, where customers can relax and enjoy their treats in a comfortable and inviting space, mixing the sweetness of the coconut and the freshness of the mint."
+    
+    role="Visual Designer"
+    tool1="Photoshop"
+    tool2="Illustrator" 
+    time="1 Month"
+    />
+
+    <div class="relative flex flex-col items-center gap-12 mx-6 lg:mx-52 mb-24">
+        
+        <div class="relative flex md:flex-row flex-col gap-12 justify-center items-center ">
+            <div class="flex justify-center rounded-3xl">
+                <img class="rounded-3xl" src="../../public/img/cocobites/coco_3.png" alt="">
+            </div>
+            <div class="flex justify-center rounded-3xl">
+              <img class="rounded-3xl " src="../../public/img/cocobites/coco_2.png" alt="">   
+            </div>
+          </div>
+
+          <div >
+            <img class="rounded-3xl" src="../../public/img/cocobites/coco_4.png" alt="">
+        </div>
+
+        <div >
+            <img class="rounded-3xl" src="../../public/img/cocobites/coco_5.png" alt="">
+        </div>
+
+        <div class="relative flex md:flex-row flex-col gap-12 justify-center items-center ">
+            <div class="flex justify-center rounded-3xl">
+                <img class="rounded-3xl" src="../../public/img/cocobites/coco_6.png" alt="">
+            </div>
+            <div class="flex justify-center rounded-3xl">
+              <img class="rounded-3xl " src="../../public/img/cocobites/coco_7.png" alt="">   
+            </div>
+          </div>
+          
+          <div >
+            <img class="rounded-3xl" src="../../public/img/cocobites/coco_8.png" alt="">
+        </div>
+
+        <div >
+            <img class="rounded-3xl" src="../../public/img/cocobites/coco_9.png" alt="">
+        </div>
+
+    </div>
+
+    <div class="relative flex  md:justify-end justify-center mx-6 lg:mx-52 mb-24 ">
+        <a
+          class="relative 
+          flex hover:gap-8
+          gap-2 
+          transition-all
+           w-max justify-center 
+           items-center rounded-full border border-accent p-3 text-accent hover:bg-accent hover:border-accent hover:text-dark-color focus:outline-none focus:ring active:main-melon px-8"
+          href="/projects"
+        >
+        <h1 class=" font-Alice text-3xl ">Portfolio</h1>
+          <svg 
+            class="size-5 rtl:rotate-180"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="4"
+              d="M14 5l7 7m0 0l-7 7m7-7H3"
+            />
+          </svg>
+        </a>
+        </div>
+    
+</Layout>
