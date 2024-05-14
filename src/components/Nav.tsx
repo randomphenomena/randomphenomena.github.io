@@ -45,10 +45,13 @@ export default function Navbar() {
             </div>
 
             {matches && (
-                <div className="flex gap-12 font-lato">
+                <div className="flex gap-12 font-lato justify-center items-center">
                     <a className="hover:text-main-melon hover:md:-translate-y-0.5" href="/">Home</a>
                     <a className="hover:text-main-melon hover:md:-translate-y-0.5" href="/about">About</a>
                     <a className="hover:text-main-melon hover:md:-translate-y-0.5" href="/projects">Projects</a>
+                    <div className=" border-2  py-2 rounded-3xl hover:border-main-melon hover:text-main-melon ">
+                    <a className="hover:text-main-melon hover:md:-translate-y-0.5 px-4" href="assets/resume_CarolinaFigueroa.pdf">Projects</a>
+                    </div>
                 </div>
             )}
 
