@@ -13,7 +13,9 @@ export default {
 				  'light-color': '#E7E7E7',
 				  'main-melon': '#FFAC9A',
 				  'darkaccent' : '#252C24',
-				  'accent' :'#C2EABD'
+				  'accent' :'#C2EABD',
+				  'purple-o' : '#000814',
+				  'purple-b' : '#01161e',
 
 				  
 			},
