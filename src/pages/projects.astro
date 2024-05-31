@@ -1,6 +1,17 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import CardProjects from "../components/card-projects.astro";
+
+
+import coveronlyauth from "assets/onlyauth/onlyauth_landing.png";
+import coverskinwise from "assets/skinwise/skinwise_0.png";
+import coverdco from "assets/dco/dco_home.png";
+import covercoco from "assets/cocobites/coco_home.png";
+import coveryuki from "assets/yukiheadphone/yuki_home.png";
+import covermotion from "assets/Motion3D/fire.gif";
+
+
+
 ---
 
 
@@ -14,7 +25,7 @@ import CardProjects from "../components/card-projects.astro";
         <div>
             <CardProjects 
             href="work/onlyauth"
-            img="assets/onlyauth/onlyauth_landing.png"
+            img={coveronlyauth}
             title="Onlyauth"
             role="Web design | Illustration"
             txt="Design and creation of visual assets for the Website and Apple Store and Google Play Store, adhering to platform guidelines."/>
@@ -23,14 +34,14 @@ import CardProjects from "../components/card-projects.astro";
       <div class="relative flex flex-col md:flex-row justify-center gap-12">
         <CardProjects
             href="work/skinwise"
-            img="assets/skinwise/skinwise_0.png"
+            img={coverskinwise}
             title="SkinWise"
             role="UX/UI"
             txt="Mobile application dedicated to meet the demands of skincare in modern days."/>
     
         <CardProjects 
            href="work/drinks"
-           img="assets/dco/dco_home.png"
+           img={coverdco}
            title="Drinks&Co"
            role="Web design"
            txt="Marketplace of wine and Spirits, that connects users with suppliers and brands."/>
@@ -39,7 +50,7 @@ import CardProjects from "../components/card-projects.astro";
       <div>
         <CardProjects 
         href="work/coco"
-        img="assets/cocobites/coco_home.png"
+        img={covercoco}
         title="Coco Bites"
         role="Branding"
         txt="Branding for a Vegan coffee shop that aims to cultivate a warm and welcoming atmosphere."/>
@@ -49,14 +60,14 @@ import CardProjects from "../components/card-projects.astro";
     <div class="relative flex flex-col md:flex-row items-center justify-center gap-12">
         <CardProjects
             href="work/yuki"
-            img="assets/yukiheadphone/yuki_home.png"
+            img={coveryuki}
             title="Yuki Headphones"
             role="UI design"
             txt="UI design concept for a specialized app store that focuses on headphones."/>
     
         <CardProjects 
            href="work/motion"
-           img="assets/Motion3D/fire.gif"
+           img={covermotion}
            title="Motion & 3D"
            role="Motion graphics"
            txt="Collection of different projects I have made for Motion Design, 2D and 3D "/>
