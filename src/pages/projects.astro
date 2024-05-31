@@ -1,17 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import CardProjects from "../components/card-projects.astro";
-
-
-import coveronlyauth from "assets/onlyauth/onlyauth_landing.png";
-import coverskinwise from "assets/skinwise/skinwise_0.png";
-import coverdco from "assets/dco/dco_home.png";
-import covercoco from "assets/cocobites/coco_home.png";
-import coveryuki from "assets/yukiheadphone/yuki_home.png";
-import covermotion from "assets/Motion3D/fire.gif";
-
-
-
 ---
 
 
@@ -25,7 +14,7 @@ import covermotion from "assets/Motion3D/fire.gif";
         <div>
             <CardProjects 
             href="work/onlyauth"
-            img={coveronlyauth}
+            img="/assets/onlyauth/onlyauth_landing.png"
             title="Onlyauth"
             role="Web design | Illustration"
             txt="Design and creation of visual assets for the Website and Apple Store and Google Play Store, adhering to platform guidelines."/>
@@ -34,14 +23,14 @@ import covermotion from "assets/Motion3D/fire.gif";
       <div class="relative flex flex-col md:flex-row justify-center gap-12">
         <CardProjects
             href="work/skinwise"
-            img={coverskinwise}
+            img="/assets/skinwise/skinwise_0.png"
             title="SkinWise"
             role="UX/UI"
             txt="Mobile application dedicated to meet the demands of skincare in modern days."/>
     
         <CardProjects 
            href="work/drinks"
-           img={coverdco}
+           img="/assets/dco/dco_home.png"
            title="Drinks&Co"
            role="Web design"
            txt="Marketplace of wine and Spirits, that connects users with suppliers and brands."/>
@@ -50,7 +39,7 @@ import covermotion from "assets/Motion3D/fire.gif";
       <div>
         <CardProjects 
         href="work/coco"
-        img={covercoco}
+        img="/assets/cocobites/coco_home.png"
         title="Coco Bites"
         role="Branding"
         txt="Branding for a Vegan coffee shop that aims to cultivate a warm and welcoming atmosphere."/>
@@ -60,14 +49,14 @@ import covermotion from "assets/Motion3D/fire.gif";
     <div class="relative flex flex-col md:flex-row items-center justify-center gap-12">
         <CardProjects
             href="work/yuki"
-            img={coveryuki}
+            img="/assets/yukiheadphone/yuki_home.png"
             title="Yuki Headphones"
             role="UI design"
             txt="UI design concept for a specialized app store that focuses on headphones."/>
     
         <CardProjects 
            href="work/motion"
-           img={covermotion}
+           img="/assets/Motion3D/fire.gif"
            title="Motion & 3D"
            role="Motion graphics"
            txt="Collection of different projects I have made for Motion Design, 2D and 3D "/>
@@ -77,7 +66,7 @@ import covermotion from "assets/Motion3D/fire.gif";
       <div>
         <CardProjects 
         href="work/american"
-        img="assets/americanflyers/af1.png"
+        img="/assets/americanflyers/af1.png"
         title="American Flyers"
         role="Web | Social Media design"/>
         
@@ -86,13 +75,13 @@ import covermotion from "assets/Motion3D/fire.gif";
     <div class="relative flex flex-col md:flex-row items-center justify-center gap-12">
         <CardProjects
             href="work/giardino"
-            img="assets/giardino/giardino.jpg"
+            img="/assets/giardino/giardino.jpg"
             title="Giardino"
             role="Branding"/>
     
         <CardProjects 
            href="work/uzee"
-           img="assets/uzee/uzee_1.png"
+           img="/assets/uzee/uzee_1.png"
            title="Uzee Project"
            role="UX/UI"/>
       </div>

@@ -1,10 +1,5 @@
 ---
 import CardProjects from "../components/card-projects.astro";
-import coveronlyauth from "assets/onlyauth/onlyauth_landing.png";
-import coverskinwise from "assets/skinwise/skinwise_0.png";
-import coverdco from "assets/dco/dco_home.png";
-
-
 ---
 
 <div class="relative flex flex-col md:gap-20 gap-12 justify-center items-center mx-12 md:mt-44">
@@ -20,7 +15,7 @@ import coverdco from "assets/dco/dco_home.png";
       <div>
         <CardProjects 
         href="work/onlyauth"
-        img={coveronlyauth}
+        img="/assets/onlyauth/onlyauth_landing.png"
         title="Onlyauth"
         role="Web design | Illustration"
         txt="Design and creation of visual assets for the Website and Apple Store and Google Play Store, adhering to platform guidelines."/>
@@ -31,14 +26,14 @@ import coverdco from "assets/dco/dco_home.png";
   <div class="relative flex flex-col md:flex-row justify-between gap-12">
     <CardProjects 
         href="work/skinwise"
-        img={coverskinwise}
+        img="/assets/skinwise/skinwise_0.png"
         title="SkinWise"
         role="UX/UI"
         txt="Mobile application dedicated to meet the demands of skincare in modern days."/>
 
     <CardProjects 
        href="work/drinks"
-       img={coverdco}
+       img="/assets/dco/dco_home.png"
        title="Drinks&Co"
        role="Web design"
        txt="Marketplace of wine and Spirits, that connects users with suppliers and brands."/>
