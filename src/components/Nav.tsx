@@ -50,7 +50,7 @@ export default function Navbar() {
                     <a className="hover:text-main-melon hover:md:-translate-y-0.5" href="/about">About</a>
                     <a className="hover:text-main-melon hover:md:-translate-y-0.5" href="/projects">Projects</a>
                     <div className=" border-2  py-2 rounded-3xl hover:border-main-melon hover:text-main-melon ">
-                    <a className="hover:text-main-melon hover:md:-translate-y-0.5 px-4" href="assets/resume_CarolinaFigueroa.pdf">Resume</a>
+                    <a className="hover:text-main-melon hover:md:-translate-y-0.5 px-4" href="public/resume_CarolinaFigueroa.pdf">Resume</a>
                     </div>
                 </div>
             )}
@@ -69,6 +69,7 @@ export default function Navbar() {
                         <motion.a variants={itemMotion} href="/">Home</motion.a>
                         <motion.a variants={itemMotion} href="/about">About</motion.a>
                         <motion.a variants={itemMotion} href="/projects">Projects</motion.a>
+                        <motion.a variants={itemMotion} className="border-2  py-2 px-4 rounded-3xl" href="public/resume_CarolinaFigueroa.pdf">Resume</motion.a>
                     </motion.div>
                 </motion.div>
             )}
