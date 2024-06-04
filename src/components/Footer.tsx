@@ -6,7 +6,7 @@ export default function(){
     <div className="mx-12 lg:mx-52  flex flex-col gap-4 text-center md:text-left">
         <div>
     <h2 className=" font-Alice md:text-5xl text-xxxl">Get in touch</h2>
-    <p>Have a question or just want to connect? <br/>Reach out, and I'll respond promptly.</p>
+    <p>Have a question or just want to connect? <br/>Reach out, <span className=" font-bold">carolina.figueroa.herbas@gmail.com</span></p>
     </div>
     <div className="relative flex justify-center md:justify-start  ">
         <a
