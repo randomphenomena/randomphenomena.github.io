@@ -1,10 +1,10 @@
 ---
 title: Web Design
 publishDate: 2024-06-05 00:00:00
-img: /img/dco/dco_home.png
+img: /assets/dco/dco_home.png
 img_alt: Marketplace of wine and Spirits, that connects users with suppliers and brands.
 
-href: /img/dco/dco_1.png
+href: /assets/dco/dco_1.png
 
 description1: Drinks&CoWine and Spirits marketplace that connect users, suppliers and brands, offering personalized recommendations, exclusive selection, offers and services to create a unique omnichannel experience around the world of beverages.
 
@@ -18,15 +18,15 @@ time: 3 Years
 
 title1: Newsletter
 dscrp1:  Email marketing is one of the channels used to keep customers informed about new products and special discounts.
-src1: /img/dco/dco_2c.png
+src1: /assets/dco/dco_2c.png
 
 title2: Web Visual assets
 dscrp2: Design and creation of landing pages and horme banners for exclusive discounts and different products.
-src2: /img/dco/dco_3.png
+src2: /assets/dco/dco_3.png
 
 title3: Social Media
 dscrp3: Efficiently showcase the products and brand communication on social media platforms to maximize their impact.
-src3: /img/dco/dco_5b.png
+src3: /assets/dco/dco_5b.png
 ---
 
 
