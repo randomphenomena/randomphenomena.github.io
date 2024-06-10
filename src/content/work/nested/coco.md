@@ -1,5 +1,5 @@
 ---
-title: Web Design
+title: Branding
 publishDate: 2019-06-05 00:00:00
 img: /assets/cocobites/coco_home.png
 img_alt: Marketplace of wine and Spirits, that connects users with suppliers and brands.
