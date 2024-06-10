@@ -1,0 +1,108 @@
+---
+import { type CollectionEntry, getCollection} from "astro:content";
+
+
+import Layout from "../../layouts/Layout.astro"
+
+
+
+interface Props {
+    entry: CollectionEntry<'work'>;
+}
+
+export async function getStaticPaths() {
+    const work = await getCollection('work');
+    return work.map((entry) => ({
+        params: {slug: entry.slug},
+        props: {entry},
+    }));
+
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<Layout title={entry.data.title}>
+
+    <div class=" relative flex flex-col gap-12 -top-24">
+        <div class="relative mx-6">
+            <img class="w-screen md:h-auto" src={entry.data.href} alt="">
+        </div>
+        <div class="relative  mx-6 md:mx-52 justify-center items-center text-lg">
+            <p >{entry.data.description1}<br/><br/>{entry.data.description2}
+            </p>
+        </div>
+        <div class="relative flex  justify-between mx-6 md:mx-52 items-start mb-24">
+           <div class=" items-center relative flex flex-col  gap-2 md:-gap-0 text-center">
+            <h1 class="md:text-3xl text-2xl font-Alice text-main-melon">Role</h1>
+            <p class=" text-sm md:text-lg">{entry.data.role}</p>
+    
+           </div>
+           <span class="w-px h-16 bg-main-melon"></span>
+           <div class=" items-center relative flex flex-col gap-2 md:-gap-0 text-center">
+            <h1 class="md:text-3xl text-2xl font-Alice text-main-melon">Tools</h1>
+            <p class="text-sm md:text-lg">{entry.data.tool1} <br/> {entry.data.tool2}<br/>{entry.data.tool3}<br/>{entry.data.tool4}</p>
+           </div>
+           <span class="w-px h-16 bg-main-melon"></span>
+           <div class=" items-center relative flex flex-col gap-2 md:-gap-0 text-center">
+            <h1 class="md:text-3xl text-2xl font-Alice text-main-melon">Time</h1>
+            <p class=" text-sm md:text-lg">{entry.data.time}</p>
+           </div>
+           
+        </div>
+
+               <div class="mx-6 md:mx-52 flex flex-col md:gap-24 gap-16   md:text-center text-left">
+
+        <div class="flex flex-col justify-center items-center gap-12  md:text-center text-left" >
+            <h1 class="text-4xl font-Alice text-main-melon">{entry.data.title1}</h1>
+            <p>{entry.data.dscrp1}</p>
+            <img class="rounded-3xl" src={entry.data.src1} alt="">
+        </div>
+
+        <div class="flex flex-col justify-center items-center gap-12  md:text-center text-left"  >
+            <h1 class="text-4xl font-Alice text-main-melon">{entry.data.title2}</h1>
+            <p>{entry.data.dscrp2}</p>
+            <img class="rounded-3xl" src={entry.data.src2} alt="">
+          </div>
+
+          <div class="flex flex-col justify-center items-center gap-12 md:text-center text-left "  >
+            <h1 class="text-4xl font-Alice text-main-melon">{entry.data.title3}</h1>
+            <p>{entry.data.dscrp3}</p>
+            <img class="rounded-3xl" src={entry.data.src3} alt="">
+          </div>
+
+          </div>
+
+          <div class="relative flex  md:justify-end justify-center mx-6 lg:mx-52 ">
+            <a
+              class="relative 
+              flex hover:gap-8
+              gap-2 
+              transition-all
+               w-max justify-center 
+               items-center rounded-full border border-accent p-3 text-accent hover:bg-accent hover:border-accent hover:text-dark-color focus:outline-none focus:ring active:main-melon px-8"
+              href="/projects"
+            >
+            <h1 class=" font-Alice text-3xl ">Full portfolio</h1>
+            
+              <svg 
+                class="size-5 rtl:rotate-180"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="4"
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                />
+              </svg>
+            </a>
+            </div>
+        </div>
+        
+</Layout>
+

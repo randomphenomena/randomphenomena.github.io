@@ -1,0 +1,36 @@
+---
+import { getCollection } from 'astro:content';
+
+import Layout from "../layouts/Layout.astro";
+import CardProjects from "../components/card-projects.astro";
+import Grid from "../components/Grid.astro";
+import PortfolioPreview from '../components/PortfolioPreview.astro';
+
+
+const projects = (await getCollection('work')).sort(
+	(a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
+);
+
+---
+
+
+<Layout title="Projects gallery">
+    <div class="relative flex flex-col  md:gap-20 gap-12 justify-center  mx-6 lg:mx-52 md:mb-40 md:-top-0 -top-24">
+        <div class="relative flex flex-col gap-6 ">
+        <h2 class="text-4xl md:text-5xl font-Alice text-left text-accent">My Work</h2>
+        <p>Here are some of the design projects I've been involved with.</p>
+        </div>
+          
+       
+        <Grid variant="offset">
+          {
+            projects.map((project) => (
+              <li>
+                <PortfolioPreview project={project} />
+              </li>
+            ))
+          }
+        </Grid>
+
+    
+</Layout>
