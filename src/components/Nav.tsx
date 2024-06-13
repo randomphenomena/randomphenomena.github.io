@@ -2,6 +2,7 @@ import Mainlogo from "../../public/lg-pnk.svg";
 import { useState, useEffect } from "react";
 import { motion } from 'framer-motion';
 import { useMediaQuery } from '../util/useMediaQuery';
+import resume from '/public/resume_CarolinaFigueroa.pdf'
 
 const navMotion = {
     visible: {
@@ -49,6 +50,7 @@ export default function Navbar() {
                     <a className="hover:text-main-melon hover:md:-translate-y-0.5" href="/">Home</a>
                     <a className="hover:text-main-melon hover:md:-translate-y-0.5" href="/about">About</a>
                     <a className="hover:text-main-melon hover:md:-translate-y-0.5" href="/projects">Projects</a>
+                    <a className="hover:text-main-melon hover:md:-translate-y-0.5 border-2 border-main-melon px-3 py-1 rounded-3xl" href={resume}>Resume</a>
                 </div>
             )}
 
@@ -61,11 +63,13 @@ export default function Navbar() {
             )}
 
             {toggled && !matches && (
-                <motion.div animate={{opacity: 1, x: 0}} initial={{opacity: 0, x: 25}} className="fixed flex bg-dark-color bottom-0 left-0 w-full h-screen items-center justify-center z-40"> 
+                <motion.div animate={{opacity: 1, x: 0}} initial={{opacity: 0, x: 25}} className="fixed flex bg-dark-color bottom-0 left-0 w-full h-screen items-center justify-center z-40 text-center"> 
                     <motion.div variants={navMotion} animate="visible" initial="hidden" className="flex flex-col gap-24 text-lg font-lato">
                         <motion.a variants={itemMotion} href="/">Home</motion.a>
                         <motion.a variants={itemMotion} href="/about">About</motion.a>
                         <motion.a variants={itemMotion} href="/projects">Projects</motion.a>
+                        <motion.a variants={itemMotion} href={resume} className=" border-2 border-main-melon px-3 py-1 rounded-3xl">Resume</motion.a>
+
                     </motion.div>
                 </motion.div>
             )}
