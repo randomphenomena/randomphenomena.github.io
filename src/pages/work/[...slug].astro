@@ -26,8 +26,8 @@ const { Content } = await entry.render();
 <Layout title={entry.data.title}>
 
     <div class=" relative flex flex-col gap-12 -top-24">
-        <div class="relative mx-6">
-            <img class="w-screen md:h-auto" src={entry.data.href} alt="">
+        <div class="relative mx-6 rounded-3xl">
+            <img class="w-screen md:h-auto rounded-3xl" src={entry.data.href} alt="">
         </div>
         <div class="relative  mx-6 md:mx-52 justify-center items-center text-lg">
             <p >{entry.data.description1}<br/><br/>{entry.data.description2}
@@ -71,6 +71,7 @@ const { Content } = await entry.render();
             <p>{entry.data.dscrp3}</p>
             <img class="rounded-3xl" src={entry.data.src3} alt="">
           </div>
+          
 
           </div>
 
