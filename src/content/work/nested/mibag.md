@@ -17,7 +17,7 @@ tool3: Photoshop
 time: 4 Weeks
 
 title1: Landing page
-dscrp1: Focused of offer products of quality the design aligned with the vision of luxury and elegance.
+dscrp1: Redesign of the website to be aligned with the vision of luxury and elegance.
 src1: /assets/mibag/desktop_mobile.png 
 
 title2: Web banner
