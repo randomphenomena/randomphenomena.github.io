@@ -1,6 +1,6 @@
 ---
 title: Web design
-publishDate: 2024-12-01 00:00:00
+publishDate: 2024-01-01 00:00:00
 img: /assets/onlyauth/onlyauth_landing.png
 img_alt: Design and creation of visual assets for the Website and Apple Store and Google Play Store, adhering to platform guidelines.
 
