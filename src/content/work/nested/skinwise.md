@@ -1,6 +1,6 @@
 ---
 title: UX/UI
-publishDate: 2022-06-10 00:00:00
+publishDate: 2023-06-10 00:00:00
 img: /assets/skinwise/skinwise_0.png
 img_alt: Mobile application dedicated to meet the demands of skincare in modern days.
 
