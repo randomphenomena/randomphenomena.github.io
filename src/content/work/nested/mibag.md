@@ -1,5 +1,5 @@
 ---
-title: Web design
+title: Web | UX/UI
 publishDate: 2024-02-15 00:00:00
 img: /assets/mibag/mibag_landing.png
 img_alt: Online store website for women handbag and accesories.
