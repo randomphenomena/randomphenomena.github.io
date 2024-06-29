@@ -1,5 +1,5 @@
 ---
-title: Web | UX/UI
+title: Visual design | Web
 publishDate: 2024-02-15 00:00:00
 img: /assets/mibag/mibag_landing.png
 img_alt: Online store website for women handbag and accesories.
@@ -10,7 +10,7 @@ description1: miBag is a online store offering high-quality, stylish handbags an
 
 description2: The goal was to design a moden website that aligns with the vision of the store brand, and the creation of several web visual assets for the website and social media.
 
-role: Web designer
+role: Visual Web designer
 tool1: Figma
 tool2: Illustrator
 tool3: Photoshop
