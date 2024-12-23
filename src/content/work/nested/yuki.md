@@ -1,5 +1,5 @@
 ---
-title: UX/UI
+title: UI design
 publishDate: 2022-06-05 00:00:00
 img: /assets/yukiheadphone/yuki_home.png
 img_alt: UI design concept for a specialized app store that focuses on headphones.
