@@ -2,7 +2,7 @@ import Mainlogo from "../../public/lg-pnk.svg";
 import { useState, useEffect } from "react";
 import { motion } from 'framer-motion';
 import { useMediaQuery } from '../util/useMediaQuery';
-import resume from '/public/resume_CarolinaFigueroa.pdf'
+import resume from '../../assets/Resume_Carolina_Figueroa.pdf'
 
 const navMotion = {
     visible: {
